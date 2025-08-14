@@ -9,14 +9,14 @@ This template is used to generate two types of notes - Hazards or Dangerous Terr
 1. In Obsidian, open your Command Palette and choose **Modal Form: Manage Forms**
 2. Click on the **Import Form** button
 3. Copy and paste the contents of `ModalForm-NewNaturalDanger.json` and click Import
-4. Download `ModalForm-NewNaturalDanger.md` and place it in your global templates folder. 
+4. Download `ModalForm-NewNaturalDanger.md` and place it in your Global Templates folder. 
 5. Choose to either replace your entire existing Quick Add data.json file with the contents of `QuickAdd_data.json` or add just the contents of `QuickAdd_NewNaturalDanger-Snippet.json` into your "Choices" field.  
 
 ### Files
 
 [ModalForm-NewNaturalDanger.json](/TEMPLATE_NewNaturalDanger/ModalForm-NewNaturalDanger.json) This file contains the settings for the "New Natural Danger" Modal Form. This is the file that you would choose with the "Import" option in the "Manage Forms" page of Modal Forms. <br>
 [ModalForm-NewNaturalDanger.md](/TEMPLATE_NewNaturalDanger/ModalForm-NewNaturalDanger.md) This is the template file for "New Natural Danger." This file is placed in your Global Templates folder. <br>
-[QuickAdd_NewNaturalDanger-Snippet.json](/TEMPLATE_NewNaturalDanger/QuickAdd_NewNaturalDanger-Snippet.json) If you do not overwrite your entire *(Vault_Directory)*/.obsidian/plugins/quickadd/data.json file, you can copy and paste this portion of code into the "Choices" block to add a "NewNaturalDanger" quick add command. 
+[QuickAdd_NewNaturalDanger-Snippet.json](/TEMPLATE_NewNaturalDanger/QuickAdd_NewNaturalDanger-Snippet.json) If you do not overwrite your entire `(Vault_Directory)/.obsidian/plugins/quickadd/data.json` file, you can copy and paste this portion of code within the "Choices" block to add a "NewNaturalDanger" quick add command. 
 
 ## Usage
 
