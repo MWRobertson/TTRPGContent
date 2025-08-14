@@ -22,15 +22,15 @@ This template is used to generate Obstacle notes. In this case I'm sort of defin
 
 1. Open your Command Palette and choose **Quick Add: NewObstacle**
 
-![Screenshot - Quick Add NewNaturalDanger](/images/screenshot_quickadd_newnaturaldanger.png "Screenshot - Quick Add NewNaturalDanger")
+![Screenshot - Quick Add NewObstacle](/images/screenshot_quickadd_newobstacle.png "Screenshot - Quick Add NewObstacle")
 
 2. Fill in the details for this danger in the user input form
 
-![Screenshot - NewNaturalDanger Modal Form](/images/screenshot_modalform_newnaturaldanger.png "Screenshot - NewNaturalDanger Modal Form")
+![Screenshot - NewObstacle Modal Form](/images/screenshot_modalform_newobstacle.png "Screenshot - NewObstacle Modal Form")
 
 3. The template converts this into a new note with the form values and places it in the appropriate folder
 
-![Screenshot - NewNaturalDanger Example Note](/images/screenshot_newnaturaldanger_example.png "Screenshot - NewNaturalDanger Example Note")
+![Screenshot - NewObstacle Example Note](/images/screenshot_newobstacle_example.png "Screenshot - NewObstacle Example Note")
 
 ### Form Fields
 
