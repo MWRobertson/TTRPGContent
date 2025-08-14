@@ -81,4 +81,4 @@ You can copy and paste the code from each `QuickAdd_(TemplateName)-Snippet.json`
 [TEMPLATE-NewNaturalDanger](/TEMPLATE-NewNaturalDanger) This template is used to generate two types of notes - Hazards or Dangerous Terrain. <br>
 [TEMPLATE-NewNPC](/TEMPLATE-NewNPC) This template is used to generate NPC notes. <br>
 [TEMPLATE-NewObstacle](/TEMPLATE-NewObstacle) This template is used to generate notes pertaining to Obstacles in the party's path. <br>
-**TEMPLATE-NewTrap** This template is used to generate notes about Traps. <br>
+[TEMPLATE-NewTrap](/TEMPLATE-NewTrap) This template is used to generate notes about Traps. <br>

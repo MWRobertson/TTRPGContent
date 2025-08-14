@@ -38,11 +38,18 @@ When the form is launched, you are prompted to fill in the following fields:
 
 | Parameter | Label | Explanations | Input Type |
 |---|---|---|---|
-|name|Name of Danger|A unique name that will become the title of the note|Text|
-|habitat|Habitat|The habitat(s) in which you might find this danger|Multi-Selection|
-|description|Description|A detailed synopsis of the danger. The main text of your note|Text Area|
-|level_nuisance|Level Nuisance|The party level range at which this danger is simply a nuisance|Single Selection|
-|level_deadly|Level Deadly|The party level range at which this danger becomes deadly|Single Selection|
-|level_lethal|Level Lethal|The party level range at which this danger will almost certainly result in death|Single Selection|
-|notetype|Danger Type|Choose whether this is a "Hazard" or "Dangerous Terrain"|Single Selection|
-|link|Source|The book name, URL, or other attribution for this danger|Text|
+|name|Name of Trap|A unique name that will become the title of the note|Text|
+|habitat|Habitat|The habitat(s) in which you might find this trap|Multi-Selection|
+|description|Description|A detailed synopsis of the trap. The main text of your note|Text Area|
+|detection_disarm|Detection/Disarming|Mechanical notes on how PCs may find and disable the trap|Text Area|
+|level_nuisance|Level Nuisance|The party level range at which this trap is simply a nuisance|Single Selection|
+|level_deadly|Level Deadly|The party level range at which this trap becomes deadly|Single Selection|
+|level_lethal|Level Lethal|The party level range at which this trap will almost certainly result in death|Single Selection|
+|savedc|Save DC|The save (if any) that PCs must roll to avoid the trap's consequences|Text|
+|type|Trap Type|The category of trap (Magical, Mechanical, or Other)|Single Selection|
+|reset|Reset|How (or if) the trap is reset to be triggered again|Text|
+|trigger|Trigger|The mechanism that sets off the trap|Single Selection|
+|effect|Effect|Damage type, target radius, or other quick info about the trap's impact|Text|
+|duration|Duration|How long the effects of the trap last|Text|
+|bypass|Bypass|How the trap may be avoided|Text|
+|link|Source|The book name, URL, or other attribution for this trap|Text|
