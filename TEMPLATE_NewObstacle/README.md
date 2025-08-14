@@ -1,6 +1,6 @@
-# TEMPLATE-NewNaturalDanger
+# TEMPLATE-NewObstacle
 
-This template is used to generate two types of notes - Hazards or Dangerous Terrain. The form for these two types of notes asks the same set of questions, and the distinction between them is purely subjective. I personally categorize a "hazard" as a specific natural danger to the party while "dangerous terrain" is a large, dangerous area that the party would travel through for an extended time. 
+This template is used to generate Obstacle notes. In this case I'm sort of defining obstacles as decision points for players. They could be environmental dangers, social encounters, or potential combat encounters that characters have to decide whether to go through or around. 
 
 ## Setup
 
@@ -8,19 +8,19 @@ This template is used to generate two types of notes - Hazards or Dangerous Terr
 
 1. In Obsidian, open your Command Palette and choose **Modal Form: Manage Forms**
 2. Click on the **Import Form** button
-3. Copy and paste the contents of `ModalForm-NewNaturalDanger.json` and click Import
-4. Download `ModalForm-NewNaturalDanger.md` and place it in your Global Templates folder. 
-5. Choose to either replace your entire existing Quick Add data.json file with the contents of `QuickAdd_data.json` or add just the contents of `QuickAdd_NewNaturalDanger-Snippet.json` into your "Choices" field.  
+3. Copy and paste the contents of `ModalForm-NewObstacle.json` and click Import
+4. Download `ModalForm-NewObstacle.md` and place it in your Global Templates folder. 
+5. Choose to either replace your entire existing Quick Add data.json file with the contents of `QuickAdd_data.json` or add just the contents of `QuickAdd_NewObstacle-Snippet.json` into your "Choices" field.  
 
 ### Files
 
-[ModalForm-NewNaturalDanger.json](/TEMPLATE_NewNaturalDanger/ModalForm-NewNaturalDanger.json) This file contains the settings for the "New Natural Danger" Modal Form. This is the file that you would choose with the "Import" option in the "Manage Forms" page of Modal Forms. <br>
-[ModalForm-NewNaturalDanger.md](/TEMPLATE_NewNaturalDanger/ModalForm-NewNaturalDanger.md) This is the template file for "New Natural Danger." This file is placed in your Global Templates folder. <br>
-[QuickAdd_NewNaturalDanger-Snippet.json](/TEMPLATE_NewNaturalDanger/QuickAdd_NewNaturalDanger-Snippet.json) If you do not overwrite your entire `(Vault_Directory)/.obsidian/plugins/quickadd/data.json` file, you can copy and paste this portion of code within the "Choices" block to add a "NewNaturalDanger" quick add command. 
+[ModalForm-NewObstacle.json](/TEMPLATE_NewObstacle/ModalForm-NewObstacle.json) This file contains the settings for the "New Obstacle" Modal Form. This is the file that you would choose with the "Import" option in the "Manage Forms" page of Modal Forms. <br>
+[ModalForm-NewObstacle.md](/TEMPLATE_NewObstacle/ModalForm-NewObstacle.md) This is the template file for "New Obstacle." This file is placed in your Global Templates folder. <br>
+[QuickAdd_NewObstacle-Snippet.json](/TEMPLATE_NewObstacle/QuickAdd_NewObstacle-Snippet.json) If you do not overwrite your entire `(Vault_Directory)/.obsidian/plugins/quickadd/data.json` file, you can copy and paste this portion of code within the "Choices" block to add a "NewObstacle" quick add command. 
 
 ## Usage
 
-1. Open your Command Palette and choose **Quick Add: NewNaturalDanger**
+1. Open your Command Palette and choose **Quick Add: NewObstacle**
 
 ![Screenshot - Quick Add NewNaturalDanger](/images/screenshot_quickadd_newnaturaldanger.png "Screenshot - Quick Add NewNaturalDanger")
 
