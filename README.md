@@ -115,7 +115,9 @@ You can copy and paste the code from each `Templater_(TemplateName)-Snippet.json
 
 ![Templater Settings](/images/screenshot_templater_settings.png "Templater Settings")
 
-### Templates
+### Completed Templates
+
+Click the links below to access each template type and get the data for adding this functionality to your own Obsidian vault. 
 
 [TEMPLATE-NewNaturalDanger](/TEMPLATE-NewNaturalDanger) This template is used to generate two types of notes - Hazards or Dangerous Terrain. <br>
 [TEMPLATE-NewNPC](/TEMPLATE-NewNPC) This template is used to generate NPC notes. <br>
