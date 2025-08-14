@@ -54,10 +54,10 @@ You are welcome to structure the folders in your vault to your preference, but y
 
 If you are installing Quick Add from scratch, you can import the settings for all of the commands I've used by ovewriting a data file in the plug-in folder: 
 
-1. Navigate to the directory `*(Vault_Directory)*/.obsidian/plugins/quickadd/` (Please note, the `**.obsidian**` folder is hidden by default so you will need to show hidden files first to see it.)
-2. Rename the file `*(Vault_Directory)*/.obsidian/plugins/quickadd/data.json` to `data.json.BACKUP`
-3. Copy `*QuickAdd_data.json*` to `*(Vault_Directory)*/.obsidian/plugins/quickadd/`
-4. Rename `*(Vault_Directory)*/.obsidian/plugins/quickadd/QuickAdd_data.json` to `data.json`
+1. Navigate to the directory `(Your_Vault_Directory_Path)/.obsidian/plugins/quickadd/` (Please note, the `.obsidian` folder is hidden by default so you will need to show hidden files first to see it.)
+2. Rename the file `(Your_Vault_Directory_Path)/.obsidian/plugins/quickadd/data.json` to `data.json.BACKUP`
+3. Copy `QuickAdd_data.json` to `(Your_Vault_Directory_Path)/.obsidian/plugins/quickadd/`
+4. Rename `(Your_Vault_Directory_Path)/.obsidian/plugins/quickadd/QuickAdd_data.json` to `data.json`
 
 If you have existing Quick Add settings that you don't want to overwrite, you can also choose to add new commands to the existing code. If you open the data.json file, you should see that it looks something like this: 
 
@@ -70,7 +70,7 @@ If you have existing Quick Add settings that you don't want to overwrite, you ca
       "type": "Template",
 ```
 
-You can copy and paste the code from each `QuickAdd_*TemplateName*-Snippet.json` file within this "choices" code block. Make sure that each block inside is delimited by a comma to avoid errors. 
+You can copy and paste the code from each `QuickAdd_(TemplateName)-Snippet.json` file within this "choices" code block. Make sure that each block inside is delimited by a comma to avoid errors. 
 
 ### Templates
 
