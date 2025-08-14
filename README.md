@@ -17,9 +17,13 @@ This project uses the following list of Obsidian Community plug-ins.
 + [Columns](https://github.com/tnichols217/obsidian-columns)
 
 **Modal Forms** generates user input forms to capture TTRPG data and convert it to a note in Obsidian. 
+
 **Templater** essentially maps individual template files to a specific folder location (for example, the NPC template file to the NPC folder.)
+
 **Quick Add** is used to launch the modal form and kick off the whole workflow.
+
 **Dataview** translates inline variables within the template file to the values captured from the form. 
+
 **Columns** is just used in the formatting of finished notes. As the name implies, it adds ability to create separate columns in a note. 
 
 *Optional* Once you have this workflow functioning, you can enhance it with a plug-in like [Meta Bind](https://github.com/mProjectsCode/obsidian-meta-bind-plugin) to create a button that calls a Quick Add command. These buttons can be added to a note to create a dashboard for launching forms. 
@@ -47,6 +51,9 @@ You are welcome to structure the folders in your vault to your preference, but y
 ### Templates
 
 **TEMPLATE-NewNaturalDanger** This template is used to generate two types of notes - Hazards or Dangerous Terrain. 
+
 **TEMPLATE-NewNPC** This template is used to generate NPC notes. 
+
 **TEMPLATE-NewObstacle** This template is used to generate notes pertaining to Obstacles in the party's path. 
+
 **TEMPLATE-NewTrap** This template is used to generate notes about Traps. 
