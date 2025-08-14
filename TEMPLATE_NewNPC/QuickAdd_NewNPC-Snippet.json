@@ -1,0 +1,30 @@
+    {
+      "id": "22fa99cd-2420-4a84-a505-562935fccdf0",
+      "name": "NewNPC",
+      "type": "Template",
+      "command": true,
+      "templatePath": "z_Assets/Global Templates/ModalForm-NewNPC.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "NewNPCRename"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Mechanics/NPCs"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFile": true,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "preview",
+        "focus": true
+      },
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": true
+    },
