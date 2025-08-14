@@ -70,7 +70,7 @@ If you have existing Quick Add settings that you don't want to overwrite, you ca
       "type": "Template",
 ```
 
-You can copy and paste the code from each `QuickAdd_(TemplateName)-Snippet.json` file within this "choices" code block. Make sure that each block inside is delimited by a comma to avoid errors. 
+You can copy and paste the code from each `QuickAdd_(TemplateName)-Snippet.json` file within this "choices" code block. Make sure that each `"{}"` block inside is delimited by a comma to avoid errors. 
 
 ### Templates
 
