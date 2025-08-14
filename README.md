@@ -16,15 +16,11 @@ This project uses the following list of Obsidian Community plug-ins.
 + [Dataview](https://blacksmithgu.github.io/obsidian-dataview/)
 + [Columns](https://github.com/tnichols217/obsidian-columns)
 
-**Modal Forms** generates user input forms to capture TTRPG data and convert it to a note in Obsidian. 
-
-**Templater** essentially maps individual template files to a specific folder location (for example, the NPC template file to the NPC folder.)
-
-**Quick Add** is used to launch the modal form and kick off the whole workflow.
-
-**Dataview** uses inline variables to translate the information from a note's frontmatter into values in the note itself.
-
-**Columns** is just used in the formatting of finished notes. As the name implies, it adds ability to create separate columns in a note. 
+**Modal Forms** generates user input forms to capture TTRPG data and convert it to a note in Obsidian. <br>
+**Templater** essentially maps individual template files to a specific folder location (for example, the NPC template file to the NPC folder.)<br>
+**Quick Add** is used to launch the modal form and kick off the whole workflow.<br>
+**Dataview** uses inline variables to translate the information from a note's frontmatter into values in the note itself.<br>
+**Columns** is just used in the formatting of finished notes. As the name implies, it adds ability to create separate columns in a note. <br>
 
 *Optional* Once you have this workflow functioning, you can enhance it with a plug-in like [Meta Bind](https://github.com/mProjectsCode/obsidian-meta-bind-plugin) to create buttons that call each Quick Add command. These buttons can be added to a note to create a dashboard for launching forms. 
 
