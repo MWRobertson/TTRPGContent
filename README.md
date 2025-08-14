@@ -10,15 +10,17 @@ We're beginning with the assumption that you already have some basic experience 
 
 This project uses the following list of Obsidian Community plug-ins. 
 
++ [Quick Add](https://github.com/chhoumann/quickadd)
 + [Modal Forms](https://github.com/danielo515/obsidian-modal-form)
 + [Templater](https://github.com/SilentVoid13/Templater)
-+ [Quick Add](https://github.com/chhoumann/quickadd)
 + [Dataview](https://blacksmithgu.github.io/obsidian-dataview/)
 + [Columns](https://github.com/tnichols217/obsidian-columns)
 
+![Workflow Diagram for each plug-in](/images/image_workflow.png "Workflow Diagram for each plug-in")
+
+**Quick Add** is used to launch the modal form and kick off the whole workflow.<br>
 **Modal Forms** generates user input forms to capture TTRPG data and convert it to a note in Obsidian. <br>
 **Templater** essentially maps individual template files to a specific folder location (for example, the NPC template file to the NPC folder.)<br>
-**Quick Add** is used to launch the modal form and kick off the whole workflow.<br>
 **Dataview** uses inline variables to translate the information from a note's frontmatter into values in the note itself.<br>
 **Columns** is just used in the formatting of finished notes. As the name implies, it adds ability to create separate columns in a note. <br>
 
