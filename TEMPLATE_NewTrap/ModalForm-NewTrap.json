@@ -1,0 +1,263 @@
+{
+  "title": "New Trap",
+  "name": "ModalForm-NewTrap",
+  "fields": [
+    {
+      "name": "name",
+      "label": "",
+      "description": "Name of Trap",
+      "isRequired": true,
+      "input": {
+        "type": "text",
+        "hidden": false
+      }
+    },
+    {
+      "name": "habitat",
+      "label": "",
+      "description": "Habitat",
+      "isRequired": true,
+      "input": {
+        "type": "multiselect",
+        "source": "fixed",
+        "multi_select_options": [
+          "Coastal",
+          "Swamp",
+          "Forest",
+          "Urban",
+          "Feywild",
+          "Underdark",
+          "Underground",
+          "Underwater",
+          "Jungle",
+          "Mountain",
+          "Desert",
+          "Any"
+        ],
+        "allowUnknownValues": true,
+        "query": ""
+      }
+    },
+    {
+      "name": "description",
+      "label": "",
+      "description": "Description",
+      "isRequired": false,
+      "input": {
+        "type": "textarea",
+        "hidden": false
+      }
+    },
+    {
+      "name": "detection_disarm",
+      "label": "",
+      "description": "Detection/Disarming",
+      "isRequired": false,
+      "input": {
+        "type": "textarea",
+        "hidden": false
+      }
+    },
+    {
+      "name": "level_nuisance",
+      "label": "",
+      "description": "Level Nuisance",
+      "isRequired": false,
+      "input": {
+        "type": "select",
+        "source": "fixed",
+        "options": [
+          {
+            "value": "1-4",
+            "label": "Level 1-4"
+          },
+          {
+            "value": "5-10",
+            "label": "Level 5-10"
+          },
+          {
+            "value": "11-16",
+            "label": "Level 11-16"
+          },
+          {
+            "value": "",
+            "label": "Undefined"
+          }
+        ]
+      }
+    },
+    {
+      "name": "level_deadly",
+      "label": "",
+      "description": "Level Deadly",
+      "isRequired": false,
+      "input": {
+        "type": "select",
+        "source": "fixed",
+        "options": [
+          {
+            "value": "1-4",
+            "label": "Level 1-4"
+          },
+          {
+            "value": "5-10",
+            "label": "Level 5-10"
+          },
+          {
+            "value": "11-16",
+            "label": "Level 11-16"
+          },
+          {
+            "value": "",
+            "label": "Undefined"
+          }
+        ]
+      }
+    },
+    {
+      "name": "level_lethal",
+      "label": "",
+      "description": "Level Lethal",
+      "isRequired": false,
+      "input": {
+        "type": "select",
+        "source": "fixed",
+        "options": [
+          {
+            "value": "1-4",
+            "label": "Level 1-4"
+          },
+          {
+            "value": "5-10",
+            "label": "Level 5-10"
+          },
+          {
+            "value": "11-16",
+            "label": "Level 11-16"
+          },
+          {
+            "value": "",
+            "label": "Undefined"
+          }
+        ]
+      }
+    },
+    {
+      "name": "savedc",
+      "label": "",
+      "description": "Save DC",
+      "isRequired": true,
+      "input": {
+        "type": "text",
+        "hidden": false
+      }
+    },
+    {
+      "name": "type",
+      "label": "",
+      "description": "Trap Type",
+      "isRequired": false,
+      "input": {
+        "type": "select",
+        "source": "fixed",
+        "options": [
+          {
+            "value": "Mechanical",
+            "label": "Mechanical"
+          },
+          {
+            "value": "Magical",
+            "label": "Magical"
+          },
+          {
+            "value": "Other",
+            "label": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "name": "reset",
+      "label": "",
+      "description": "Reset",
+      "isRequired": true,
+      "input": {
+        "type": "text",
+        "hidden": false
+      }
+    },
+    {
+      "name": "trigger",
+      "label": "",
+      "description": "Trigger",
+      "isRequired": true,
+      "input": {
+        "type": "select",
+        "source": "fixed",
+        "options": [
+          {
+            "value": "Tripwire",
+            "label": "Tripwire"
+          },
+          {
+            "value": "Proximity",
+            "label": "Proximity"
+          },
+          {
+            "value": "Pressure Plate",
+            "label": "Pressure Plate"
+          },
+          {
+            "value": "Latch",
+            "label": "Latch"
+          },
+          {
+            "value": "Touch",
+            "label": "Touch"
+          }
+        ]
+      }
+    },
+    {
+      "name": "effect",
+      "label": "",
+      "description": "Effect",
+      "isRequired": true,
+      "input": {
+        "type": "text",
+        "hidden": false
+      }
+    },
+    {
+      "name": "duration",
+      "label": "",
+      "description": "Duration",
+      "isRequired": true,
+      "input": {
+        "type": "text",
+        "hidden": false
+      }
+    },
+    {
+      "name": "bypass",
+      "label": "",
+      "description": "Bypass",
+      "isRequired": true,
+      "input": {
+        "type": "text",
+        "hidden": false
+      }
+    },
+    {
+      "name": "link",
+      "label": "",
+      "description": "Source",
+      "isRequired": true,
+      "input": {
+        "type": "text",
+        "hidden": false
+      }
+    }
+  ],
+  "version": "1"
+}

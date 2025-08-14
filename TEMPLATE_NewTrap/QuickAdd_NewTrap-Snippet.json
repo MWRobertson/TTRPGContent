@@ -1,0 +1,30 @@
+{
+      "id": "775347a9-da66-4897-95c3-f907fa8d6761",
+      "name": "NewTrap",
+      "type": "Template",
+      "command": true,
+      "templatePath": "z_Assets/Global Templates/ModalForm-NewTrap.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "NewTrapRename"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Mechanics/Strategy/Dangers/Traps"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFile": true,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": true
+    },
