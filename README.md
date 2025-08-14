@@ -74,6 +74,8 @@ If you have existing Quick Add settings that you don't want to overwrite, you ca
 
 You can copy and paste the code from each `QuickAdd_(TemplateName)-Snippet.json` file within this "choices" code block. Make sure that each `"{}"` block inside is delimited by a comma to avoid errors. 
 
+![QuickAdd Settings](/images/screenshot_quickadd_settings.png "QuickAdd Settings")
+
 ### Templates
 
 [TEMPLATE-NewNaturalDanger](/TEMPLATE-NewNaturalDanger) This template is used to generate two types of notes - Hazards or Dangerous Terrain. <br>
