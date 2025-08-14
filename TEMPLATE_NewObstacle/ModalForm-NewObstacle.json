@@ -1,0 +1,73 @@
+{
+  "title": "New Obstacle",
+  "name": "ModalForm-NewObstacle",
+  "fields": [
+    {
+      "name": "name",
+      "label": "",
+      "description": "Name of Obstacle",
+      "isRequired": true,
+      "input": {
+        "type": "text",
+        "hidden": false
+      }
+    },
+    {
+      "name": "habitat",
+      "label": "",
+      "description": "Habitat",
+      "isRequired": true,
+      "input": {
+        "type": "multiselect",
+        "source": "fixed",
+        "multi_select_options": [
+          "Coastal",
+          "Swamp",
+          "Forest",
+          "Urban",
+          "Feywild",
+          "Underdark",
+          "Underground",
+          "Underwater",
+          "Jungle",
+          "Mountain",
+          "Desert",
+          "Any"
+        ],
+        "allowUnknownValues": true,
+        "query": ""
+      }
+    },
+    {
+      "name": "description",
+      "label": "",
+      "description": "Description",
+      "isRequired": false,
+      "input": {
+        "type": "textarea",
+        "hidden": false
+      }
+    },
+    {
+      "name": "mechanics",
+      "label": "",
+      "description": "Mechanics",
+      "isRequired": false,
+      "input": {
+        "type": "textarea",
+        "hidden": false
+      }
+    },
+    {
+      "name": "link",
+      "label": "",
+      "description": "Source",
+      "isRequired": true,
+      "input": {
+        "type": "text",
+        "hidden": false
+      }
+    }
+  ],
+  "version": "1"
+}
