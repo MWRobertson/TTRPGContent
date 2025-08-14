@@ -8,6 +8,8 @@ This template is used to generate two types of notes - Hazards or Dangerous Terr
 
 **ModalForm-NewNaturalDanger.md** This is the template file for "New Natural Danger." This file is placed in your Global Templates folder. 
 
+**QuickAdd_NewNaturalDanger-Snippet.json** If you do not overwrite your entire *(Vault_Directory)*/.obsidian/plugins/quickadd/data.json file, you can copy and paste this portion of code into the "Choices" block to add a "NewNaturalDanger" quick add command. 
+
 ### Implementation
 
 1. In Obsidian, open your Command Palette and choose **Modal Form: Manage Forms**

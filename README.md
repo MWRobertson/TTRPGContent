@@ -22,11 +22,11 @@ This project uses the following list of Obsidian Community plug-ins.
 
 **Quick Add** is used to launch the modal form and kick off the whole workflow.
 
-**Dataview** translates inline variables within the template file to the values captured from the form. 
+**Dataview** uses inline variables to translate the information from a note's frontmatter into values in the note itself.
 
 **Columns** is just used in the formatting of finished notes. As the name implies, it adds ability to create separate columns in a note. 
 
-*Optional* Once you have this workflow functioning, you can enhance it with a plug-in like [Meta Bind](https://github.com/mProjectsCode/obsidian-meta-bind-plugin) to create a button that calls a Quick Add command. These buttons can be added to a note to create a dashboard for launching forms. 
+*Optional* Once you have this workflow functioning, you can enhance it with a plug-in like [Meta Bind](https://github.com/mProjectsCode/obsidian-meta-bind-plugin) to create buttons that call each Quick Add command. These buttons can be added to a note to create a dashboard for launching forms. 
 
 ### Directory Structure
 
@@ -47,6 +47,30 @@ You are welcome to structure the folders in your vault to your preference, but y
         + _ModalForm-NewNPC.md_
         + _ModalForm-NewObstacle.md_
         + _ModalForm-NewTrap.md_
+
+## Usage
+
+### Customizing the Quick Add plug-in
+
+If you are installing Quick Add from scratch, you can import the settings for all of the commands I've used by ovewriting a data file in the plug-in folder: 
+
+1. Navigate to the directory *(Vault_Directory)*/.obsidian/plugins/quickadd/ (Please note, the **.obsidian** folder is hidden by default so you will need to show hidden files first to see it.)
+2. Rename the file *(Vault_Directory)*/.obsidian/plugins/quickadd/data.json to data.json.BACKUP
+3. Copy *QuickAdd_data.json* to *(Vault_Directory)*/.obsidian/plugins/quickadd/
+4. Rename *(Vault_Directory)*/.obsidian/plugins/quickadd/QuickAdd_data.json to data.json
+
+If you have existing Quick Add settings that you don't want to overwrite, you can also choose to add new commands to the existing code. If you open the data.json file, you should see that it looks something like this: 
+
+```
+{
+  "choices": [
+    {
+      "id": "22fa99cd-2420-4a84-a505-562935fccdf0",
+      "name": "NewNPC",
+      "type": "Template",
+```
+
+You can copy and paste the code from each QuickAdd_*TemplateName*-Snippet.json file within this "choices" code block. Make sure that each block inside is delimited by a comma to avoid errors. 
 
 ### Templates
 
