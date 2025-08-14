@@ -69,6 +69,7 @@ If you have existing Quick Add settings that you don't want to overwrite, you ca
       "id": "22fa99cd-2420-4a84-a505-562935fccdf0",
       "name": "NewNPC",
       "type": "Template",
+      ...
 ```
 
 You can copy and paste the code from each `QuickAdd_(TemplateName)-Snippet.json` file within this "choices" code block. Make sure that each `"{}"` block inside is delimited by a comma to avoid errors. 
