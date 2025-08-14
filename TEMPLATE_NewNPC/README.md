@@ -16,7 +16,7 @@ This template is used to generate new NPC notes
 
 [ModalForm-NewNPC.json](/TEMPLATE_NewNPC/ModalForm-NewNPC.json) This file contains the settings for the "New NPC" Modal Form. This is the file that you would choose with the "Import" option in the "Manage Forms" page of Modal Forms. <br>
 [ModalForm-NewNPC.md](/TEMPLATE_NewNPC/ModalForm-NewNPC.md) This is the template file for "New NPC." This file is placed in your Global Templates folder. <br>
-[QuickAdd_NewNPC-Snippet.json](/TEMPLATE_NewNPC/QuickAdd_NewNPC-Snippet.json) If you do not overwrite your entire `(Vault_Directory)/.obsidian/plugins/quickadd/data.json` file, you can copy and paste this portion of code within the "Choices" block to add a "NewNPC" quick add command. 
+[QuickAdd_NewNPC-Snippet.json](/TEMPLATE_NewNPC/QuickAdd_NewNPC-Snippet.json) If you do not overwrite your entire `(Vault_Directory)/.obsidian/plugins/quickadd/data.json` file, you can copy and paste this portion of code within the "Choices" block to add a "NewNPC" quick add command. <br>
 [NPCMissingPicture.jpg](/TEMPLATE_NewNPC/NPCMissingPicture.jpg) This is technically optional, but I like to stage a "missing picture" on new NPC notes. Then later if I find an image to use for an important NPC, I can replace it in the note. 
 
 ## Usage
