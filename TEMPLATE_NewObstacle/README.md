@@ -38,11 +38,8 @@ When the form is launched, you are prompted to fill in the following fields:
 
 | Parameter | Label | Explanations | Input Type |
 |---|---|---|---|
-|name|Name of Danger|A unique name that will become the title of the note|Text|
-|habitat|Habitat|The habitat(s) in which you might find this danger|Multi-Selection|
-|description|Description|A detailed synopsis of the danger. The main text of your note|Text Area|
-|level_nuisance|Level Nuisance|The party level range at which this danger is simply a nuisance|Single Selection|
-|level_deadly|Level Deadly|The party level range at which this danger becomes deadly|Single Selection|
-|level_lethal|Level Lethal|The party level range at which this danger will almost certainly result in death|Single Selection|
-|notetype|Danger Type|Choose whether this is a "Hazard" or "Dangerous Terrain"|Single Selection|
+|name|Name of Obstacle|A unique name that will become the title of the note|Text|
+|habitat|Habitat|The habitat(s) in which you might find this obstacle|Multi-Selection|
+|description|Description|A detailed synopsis of the obstacle. The main text of your note|Text Area|
+|mechanics|Mechanics|How to mechanically run the obstacle (saves, rolls, etc.)|Text Area|
 |link|Source|The book name, URL, or other attribution for this danger|Text|
