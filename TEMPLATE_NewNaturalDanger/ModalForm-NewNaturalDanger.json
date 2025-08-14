@@ -1,0 +1,167 @@
+{
+  "title": "New Natural Danger",
+  "name": "ModalForm-NewDangerNatural",
+  "fields": [
+    {
+      "name": "name",
+      "label": "",
+      "description": "Name of Danger",
+      "isRequired": true,
+      "input": {
+        "type": "text",
+        "hidden": false
+      }
+    },
+    {
+      "name": "habitat",
+      "label": "",
+      "description": "Habitat",
+      "isRequired": true,
+      "input": {
+        "type": "multiselect",
+        "source": "fixed",
+        "multi_select_options": [
+          "Coastal",
+          "Swamp",
+          "Forest",
+          "Urban",
+          "Feywild",
+          "Underdark",
+          "Underground",
+          "Underwater",
+          "Jungle",
+          "Mountain",
+          "Desert",
+          "Any"
+        ],
+        "allowUnknownValues": true,
+        "query": ""
+      }
+    },
+    {
+      "name": "description",
+      "label": "",
+      "description": "Description",
+      "isRequired": false,
+      "input": {
+        "type": "textarea",
+        "hidden": false
+      }
+    },
+    {
+      "name": "level_nuisance",
+      "label": "",
+      "description": "Level Nuisance",
+      "isRequired": false,
+      "input": {
+        "type": "select",
+        "source": "fixed",
+        "options": [
+          {
+            "value": "1-4",
+            "label": "Level 1-4"
+          },
+          {
+            "value": "5-10",
+            "label": "Level 5-10"
+          },
+          {
+            "value": "11-16",
+            "label": "Level 11-16"
+          },
+          {
+            "value": "",
+            "label": "Undefined"
+          }
+        ]
+      }
+    },
+    {
+      "name": "level_deadly",
+      "label": "",
+      "description": "Level Deadly",
+      "isRequired": false,
+      "input": {
+        "type": "select",
+        "source": "fixed",
+        "options": [
+          {
+            "value": "1-4",
+            "label": "Level 1-4"
+          },
+          {
+            "value": "5-10",
+            "label": "Level 5-10"
+          },
+          {
+            "value": "11-16",
+            "label": "Level 11-16"
+          },
+          {
+            "value": "",
+            "label": "Undefined"
+          }
+        ]
+      }
+    },
+    {
+      "name": "level_lethal",
+      "label": "",
+      "description": "Level Lethal",
+      "isRequired": false,
+      "input": {
+        "type": "select",
+        "source": "fixed",
+        "options": [
+          {
+            "value": "1-4",
+            "label": "Level 1-4"
+          },
+          {
+            "value": "5-10",
+            "label": "Level 5-10"
+          },
+          {
+            "value": "11-16",
+            "label": "Level 11-16"
+          },
+          {
+            "value": "",
+            "label": "Undefined"
+          }
+        ]
+      }
+    },
+    {
+      "name": "notetype",
+      "label": "",
+      "description": "Danger Type",
+      "isRequired": false,
+      "input": {
+        "type": "select",
+        "source": "fixed",
+        "options": [
+          {
+            "value": "Hazards",
+            "label": "Hazard"
+          },
+          {
+            "value": "DangerousTerrain",
+            "label": "Dangerous Terrain"
+          }
+        ]
+      }
+    },
+    {
+      "name": "link",
+      "label": "",
+      "description": "Source",
+      "isRequired": true,
+      "input": {
+        "type": "text",
+        "hidden": false
+      }
+    }
+  ],
+  "version": "1"
+}

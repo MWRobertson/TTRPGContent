@@ -1,0 +1,30 @@
+   {
+      "id": "0f312f2a-0246-4ae5-80e2-9da9cbfcdb9b",
+      "name": "NewNaturalDanger",
+      "type": "Template",
+      "command": true,
+      "templatePath": "z_Assets/Global Templates/ModalForm-NewNaturalDanger.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "NewNaturalDangerRename"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Mechanics/Strategy/Dangers"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFile": true,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": true
+    },

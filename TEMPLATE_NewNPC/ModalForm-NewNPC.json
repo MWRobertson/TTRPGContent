@@ -1,0 +1,283 @@
+{
+  "title": "New NPC",
+  "name": "ModalForm-NewNPC",
+  "fields": [
+    {
+      "name": "name",
+      "label": "",
+      "description": "Character Name",
+      "isRequired": true,
+      "input": {
+        "type": "text",
+        "hidden": false
+      }
+    },
+    {
+      "name": "alignment",
+      "label": "",
+      "description": "Alignment",
+      "isRequired": true,
+      "input": {
+        "type": "select",
+        "source": "fixed",
+        "options": [
+          {
+            "value": "Lawful Good",
+            "label": "Lawful Good"
+          },
+          {
+            "value": "Lawful Neutral",
+            "label": "Lawful Neutral"
+          },
+          {
+            "value": "Lawful Evil",
+            "label": "Lawful Evil"
+          },
+          {
+            "value": "Neutral Good",
+            "label": "Neutral Good"
+          },
+          {
+            "value": "True Neutral",
+            "label": "True Neutral"
+          },
+          {
+            "value": "Neutral Evil",
+            "label": "Neutral Evil"
+          },
+          {
+            "value": "Chaotic Good",
+            "label": "Chaotic Good"
+          },
+          {
+            "value": "Chaotic Neutral",
+            "label": "Chaotic Neutral"
+          },
+          {
+            "value": "Chaotic Evil",
+            "label": "Chaotic Evil"
+          },
+          {
+            "value": "Unaligned",
+            "label": "Unaligned"
+          }
+        ]
+      }
+    },
+    {
+      "name": "species",
+      "label": "",
+      "description": "Species",
+      "isRequired": true,
+      "input": {
+        "type": "text",
+        "hidden": false
+      }
+    },
+    {
+      "name": "creature_family",
+      "label": "",
+      "description": "Creature Family Type",
+      "isRequired": true,
+      "input": {
+        "type": "text",
+        "hidden": false
+      }
+    },
+    {
+      "name": "gender",
+      "label": "",
+      "description": "Gender",
+      "isRequired": false,
+      "input": {
+        "type": "select",
+        "source": "fixed",
+        "options": [
+          {
+            "value": "Male",
+            "label": "Male"
+          },
+          {
+            "value": "Female",
+            "label": "Female"
+          },
+          {
+            "value": "Non-Binary",
+            "label": "Non-Binary"
+          },
+          {
+            "value": "Other",
+            "label": "Other"
+          }
+        ]
+      }
+    },
+    {
+      "name": "class",
+      "label": "",
+      "description": "Class or Job",
+      "isRequired": true,
+      "input": {
+        "type": "text",
+        "hidden": false
+      }
+    },
+    {
+      "name": "size",
+      "label": "",
+      "description": "Creature Size",
+      "isRequired": false,
+      "input": {
+        "type": "select",
+        "source": "fixed",
+        "options": [
+          {
+            "value": "Tiny",
+            "label": "Tiny"
+          },
+          {
+            "value": "Small",
+            "label": "Small"
+          },
+          {
+            "value": "Medium",
+            "label": "Medium"
+          },
+          {
+            "value": "Large",
+            "label": "Large"
+          },
+          {
+            "value": "Huge",
+            "label": "Huge"
+          },
+          {
+            "value": "Gargantuan",
+            "label": "Gargantuan"
+          }
+        ]
+      }
+    },
+    {
+      "name": "hp",
+      "label": "",
+      "description": "HP",
+      "isRequired": true,
+      "input": {
+        "type": "number",
+        "hidden": false
+      }
+    },
+    {
+      "name": "ac",
+      "label": "",
+      "description": "Armor Class",
+      "isRequired": true,
+      "input": {
+        "type": "number",
+        "hidden": false
+      }
+    },
+    {
+      "name": "proficiency",
+      "label": "",
+      "description": "Proficiency Bonus",
+      "isRequired": true,
+      "input": {
+        "type": "number",
+        "hidden": false
+      }
+    },
+    {
+      "name": "passiveperception",
+      "label": "",
+      "description": "Passive Perception",
+      "isRequired": true,
+      "input": {
+        "type": "number",
+        "hidden": false
+      }
+    },
+    {
+      "name": "str",
+      "label": "",
+      "description": "Strength",
+      "isRequired": false,
+      "input": {
+        "type": "number",
+        "hidden": false
+      }
+    },
+    {
+      "name": "dex",
+      "label": "",
+      "description": "Dexterity",
+      "isRequired": false,
+      "input": {
+        "type": "number",
+        "hidden": false
+      }
+    },
+    {
+      "name": "con",
+      "label": "",
+      "description": "Constitution",
+      "isRequired": false,
+      "input": {
+        "type": "number",
+        "hidden": false
+      }
+    },
+    {
+      "name": "int",
+      "label": "",
+      "description": "Intelligence",
+      "isRequired": false,
+      "input": {
+        "type": "number",
+        "hidden": false
+      }
+    },
+    {
+      "name": "wis",
+      "label": "",
+      "description": "Wisdom",
+      "isRequired": false,
+      "input": {
+        "type": "number",
+        "hidden": false
+      }
+    },
+    {
+      "name": "cha",
+      "label": "",
+      "description": "Charisma",
+      "isRequired": false,
+      "input": {
+        "type": "number",
+        "hidden": false
+      }
+    },
+    {
+      "name": "Appearance",
+      "label": "",
+      "description": "Appearance",
+      "isRequired": false,
+      "input": {
+        "type": "textarea",
+        "hidden": false
+      }
+    },
+    {
+      "name": "Personality",
+      "label": "",
+      "description": "Personality Traits",
+      "isRequired": false,
+      "input": {
+        "type": "textarea",
+        "hidden": false
+      }
+    }
+  ],
+  "version": "1"
+}
