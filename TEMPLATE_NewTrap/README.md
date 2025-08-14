@@ -1,6 +1,6 @@
 # TEMPLATE-NewTrap
 
-This template is used to generate notes for everyone's favorite dungeon mechanic - traps. 
+This template is used to generate notes for everyone's favorite dungeon detail - traps. 
 
 ## Setup
 
@@ -22,15 +22,15 @@ This template is used to generate notes for everyone's favorite dungeon mechanic
 
 1. Open your Command Palette and choose **Quick Add: NewTrap**
 
-![Screenshot - Quick Add NewTrap](/images/screenshot_quickadd_newnaturaldanger.png "Screenshot - Quick Add NewTrap")
+![Screenshot - Quick Add NewTrap](/images/screenshot_quickadd_newtrap.png "Screenshot - Quick Add NewTrap")
 
 2. Fill in the details for this danger in the user input form
 
-![Screenshot - NewTrap Modal Form](/images/screenshot_modalform_newnaturaldanger.png "Screenshot - NewTrap Modal Form")
+![Screenshot - NewTrap Modal Form](/images/screenshot_modalform_newtrap.png "Screenshot - NewTrap Modal Form")
 
 3. The template converts this into a new note with the form values and places it in the appropriate folder
 
-![Screenshot - NewTrap Example Note](/images/screenshot_newnaturaldanger_example.png "Screenshot - NewTrap Example Note")
+![Screenshot - NewTrap Example Note](/images/screenshot_newtrap_example.png "Screenshot - NewTrap Example Note")
 
 ### Form Fields
 
