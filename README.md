@@ -76,6 +76,45 @@ You can copy and paste the code from each `QuickAdd_(TemplateName)-Snippet.json`
 
 ![QuickAdd Settings](/images/screenshot_quickadd_settings.png "QuickAdd Settings")
 
+### Customizing the Templater plug-in
+
+If you are installing Templater from scratch, you can import the settings for all of the commands I've used by ovewriting a data file in the plug-in folder: 
+
+1. Navigate to the directory `(Your_Vault_Directory_Path)/.obsidian/plugins/templater-obsidian/` (Please note, the `.obsidian` folder is hidden by default so you will need to show hidden files first to see it.)
+2. Rename the file `(Your_Vault_Directory_Path)/.obsidian/plugins/templater-obsidian/data.json` to `data.json.BACKUP`
+3. Copy `Templater_data.json` to `(Your_Vault_Directory_Path)/.obsidian/plugins/templater-obsidian/`
+4. Rename `(Your_Vault_Directory_Path)/.obsidian/plugins/templater-obsidian/Templater_data.json` to `data.json`
+
+If you have existing Quick Add settings that you don't want to overwrite, you can also choose to add new commands to the existing code. If you open the data.json file, you should see that it looks something like this: 
+
+```
+{
+  "command_timeout": 5,
+  "templates_folder": "z_Assets/Global Templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "Mechanics/NPCs",
+      "template": "z_Assets/Global Templates/ModalForm-NewNPC.md"
+    },
+      ...
+```
+
+You can copy and paste the code from each `Templater_(TemplateName)-Snippet.json` file within this "folder_templates" code block. Make sure that each `"{}"` block inside is delimited by a comma to avoid errors. 
+
+![Templater Settings](/images/screenshot_templater_settings.png "Templater Settings")
+
 ### Templates
 
 [TEMPLATE-NewNaturalDanger](/TEMPLATE-NewNaturalDanger) This template is used to generate two types of notes - Hazards or Dangerous Terrain. <br>
